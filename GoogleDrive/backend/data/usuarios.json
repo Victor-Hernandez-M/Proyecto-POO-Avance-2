@@ -1,0 +1,32 @@
+[
+    {
+        "nombre": "Jose",
+        "apellido": "Ramirez",
+        "correo": "joseMr@gmail.com",
+        "contrasena": "bcdcb29ed2aab16d48c11485264df665e906bdd9"
+    },
+    {
+        "nombre": "Victor",
+        "apellido": "Hernandez",
+        "correo": "v@gmail.com",
+        "contrasena": "7110eda4d09e062aa5e4a390b0a572ac0d2c0220"
+    },
+    {
+        "nombre": "Jose",
+        "apellido": "ramirez",
+        "correo": "j@gmail.com",
+        "contrasena": "d5f12e53a182c062b6bf30c1445153faff12269a"
+    },
+    {
+        "nombre": "Jose",
+        "apellido": "Hernandez",
+        "correo": "jh@gmail.com",
+        "contrasena": "7110eda4d09e062aa5e4a390b0a572ac0d2c0220"
+    },
+    {
+        "nombre": "Fernanda",
+        "apellido": "Sanchez",
+        "correo": "fs@gmail.com",
+        "contrasena": "7110eda4d09e062aa5e4a390b0a572ac0d2c0220"
+    }
+]

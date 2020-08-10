@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear tu cuenta de google</title>
+    <link rel="icon" href="img/faviconGoogle.ico">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/estilosCrearUsuario.css">
+</head>
+<body>
+    <div class="row container-fluid">
+        <div class="col-xl-2 col-md-1 col-sm-0 col-0">
+        </div>
+        <div class="col-xl-8 col-md-10 col-sm-12 col-12" id="contenedor">
+            <div class="row">
+                <div class="col-8">
+                    <img id="logo" src="img/google.png">
+                    <h4>Crear tu cuenta de Google</h4>
+                    <h5>Ir a Google Drive</h5>
+                    <div class="row">
+                        <div class="col">
+                            <input class="form-control" type="text" id="nombre" placeholder="Nombre">
+                        </div>
+                        <div class="col">
+                            <input class="form-control" type="text" id="apellido" placeholder="Apellido">
+                        </div>
+                    </div><br>
+                    
+                    <input class="form-control" type="email" id="correo" placeholder="Correo electronico"><br>
+                    <div class="alert alert-danger" id="error2" style="display: none;"></div>
+                    <p>Puedes usar letras, numeros y signos de puntuacion</p>
+                    <a href="index.html">Crea una nueva dirección de Gmail en su lugar</a><br>
+                    <div class="row">
+                        <div class="col">
+                            <input class="form-control" type="password" id="contrasena" placeholder="Contraseña">
+                        </div>
+                        <div class="col">
+                            <input class="form-control" type="password" id="confirmar" placeholder="Confirmar contraseña">    
+                        </div>
+                    </div>
+                    <p>Usa 8 o más caracteres con una combinación de letras, números y símbolos</p>
+                    <a href="index.html">Acceder a tu cuenta en su lugar</a>
+                    <button class="btn btn-primary" id="crearUsuario" onclick="nuevoUsuario()" style="float: right;">Siguiente</button>
+                </div>
+                <div class="col-4" style="text-align: center; margin-top: auto; margin-bottom: auto;">
+                    <img src="img/nuevoUsuario.svg">
+                    <p>Una cuenta. Todos los servicios de Google a tu disposición.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 col-md-1 col-sm-0 col-0">
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/controlador-usuarios.js"></script>
+</body>
+</html>
